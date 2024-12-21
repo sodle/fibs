@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fibs"
+version = "0.1.0"
+description = ""
+authors = ["Scott Odle <scott@sjodle.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.6.1"
+
+[tool.poetry.scripts]
+fibs = "fibs:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
